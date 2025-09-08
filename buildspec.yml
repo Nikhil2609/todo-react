@@ -10,7 +10,7 @@ phases:
   pre_build:
     commands:
       - echo Fetching environment variables from SSM Parameter Store...
-      - VITE_API_BASE_URL=$(aws ssm get-parameter --name "/todo_app/$ENVIRONMENT/VITE_API_BASE_URL" --region $AWS_DEFAULT_REGION --query "Parameter.Value" --output text)
+      - VITE_API_BASE_URL=$(aws ssm get-parameter --name "/todo-app/$ENVIRONMENT/VITE_API_BASE_URL" --region $AWS_DEFAULT_REGION --query "Parameter.Value" --output text)
   build:
     commands:
       - echo Prepare build
