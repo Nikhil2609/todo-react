@@ -4,7 +4,10 @@ import Todos from './pages/Todos'
 function App() {
   return (
     <>
-      <Todos />
+      <>
+        <h1>Nikhil Panchal</h1>
+        <Todos />
+      </>
     </>
   )
 }
