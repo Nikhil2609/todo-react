@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <>
-        <h1>Nikhil Panchal Codepipeline Setup</h1>
+        <h1>Nikhil Panchal</h1>
         <Todos />
       </>
     </>
